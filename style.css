@@ -1,0 +1,96 @@
+body { 
+    background: #add8e6;
+}
+
+h1 {
+    color: #aaaaaa;
+    font-family: "Lucida Console", "Courier New", monospace;
+    letter-spacing: -2px;
+    font-size: 40px;
+    line-height: 0.01;
+}
+h2 {
+    color: #aaaaaa;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+}
+h4 {
+    color: #aaaaaa;
+    font-family: "Lucida Console", "Courier New", monospace;
+    line-height: 0.01;
+}
+p {
+    color: #999999;
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 20px; 
+}
+
+.header {
+    display: block;
+    background: aliceblue;
+    margin: 0;
+    padding: 30px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    display: block;
+    background-color: #ffffff;
+    width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+.aboutMe {
+    display: inline-block;
+    width: 400px;
+    margin:0%;
+    padding-left: 25px;
+}
+
+.aboutMeImage {
+    display: inline-block;
+    width: 300px;
+    margin: 0%;
+    padding-left: 50px;
+    padding-top: 25px;
+}
+
+.portfolio {
+    display: inline-block;
+    width: 750px;
+    margin: auto;
+}
+
+.portfolioImage {
+    display: inline-block;
+    margin: auto;
+    background-color: #ffffff;
+}
+
+.contact {
+    display: inline-block;
+    width: 750px;
+    margin: auto;
+}
+.footer {
+    display: block;
+    background: aliceblue;
+    margin: 0;
+    padding: 1px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+
+hr {
+    display: block;
+    width: 750px;
+    margin: auto;
+    color: #ffffff;
+}
+
+img {
+    border-radius: 25%;
+}
