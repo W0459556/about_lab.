@@ -1,5 +1,16 @@
+a {
+    text-decoration: none;
+}
+
 body { 
     background: #add8e6;
+}
+
+hr {
+    display: block;
+    width: 750px;
+    margin: auto;
+    color: #ffffff;
 }
 
 h1 {
@@ -19,28 +30,15 @@ h4 {
     font-family: "Lucida Console", "Courier New", monospace;
     line-height: 0.01;
 }
+
+img {
+    border-radius: 25%;
+}
+
 p {
     color: #999999;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 20px; 
-}
-
-.header {
-    display: block;
-    background: aliceblue;
-    margin: 0;
-    padding: 30px 0px;
-    width: 100%;
-    text-align: center;
-}
-
-.column {
-    display: block;
-    background-color: #ffffff;
-    width: 800px;
-    height: 100vh;
-    margin: auto;
-    text-align: center;
 }
 
 .aboutMe {
@@ -58,6 +56,39 @@ p {
     padding-top: 25px;
 }
 
+.column {
+    display: block;
+    background-color: #ffffff;
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    text-align: center;
+}
+
+.contact {
+    display: inline-block;
+    width: 750px;
+    margin: auto;
+}
+
+.footer {
+    display: block;
+    background: aliceblue;
+    margin: 0;
+    padding: 1px 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.header {
+    display: block;
+    background: aliceblue;
+    margin: 0;
+    padding: 30px 0px;
+    width: 100%;
+    text-align: center;
+}
+
 .portfolio {
     display: inline-block;
     width: 750px;
@@ -68,30 +99,4 @@ p {
     display: inline-block;
     margin: auto;
     background-color: #ffffff;
-}
-
-.contact {
-    display: inline-block;
-    width: 750px;
-    margin: auto;
-}
-.footer {
-    display: block;
-    background: aliceblue;
-    margin: 0;
-    padding: 1px 0px;
-    width: 100%;
-    text-align: center;
-}
-
-
-hr {
-    display: block;
-    width: 750px;
-    margin: auto;
-    color: #ffffff;
-}
-
-img {
-    border-radius: 25%;
 }
